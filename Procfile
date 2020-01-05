@@ -1,1 +1,1 @@
-web: gunicorn app:app --log-file -
+web: sh setup.sh && streamlit run iris_eda_app.py
