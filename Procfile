@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run nlpify_py36.py
+web: sh setup.sh && streamlit run app.py
